@@ -59,28 +59,28 @@ Broken down into 8 major components in a micro-service based architecture, the s
 
 | Index | Description |
 |-------|-------------|
-| 1 | Use actor/action to identify components |
-| 2 | No delivery component is needed for now |
-| 3 | Require stock monitoring and calibration |
-| 4 | Using a notification system |
-| 6 | Sharding/routing as per location |
-| 7 | Using External Identity Provider |
-| 8 | Data needs to be anonymized for PII |
-| 9 | 3rd party health hooks into the customer info |
-| 10 | Recommendation engine is a batch system |
-| 11 | Using microservices vs event driven |
-| 12 | Use mobile friendly web app |
+| [ADR_001](docs/arc/adr_001.md) | Use actor/action to identify components |
+| [ADR_002](docs/arc/adr_002.md) | No delivery component is needed for now |
+| [ADR_003](docs/arc/adr_003.md) | Require stock monitoring and calibration |
+| [ADR_004](docs/arc/adr_004.md) | Using a notification system |
+| [ADR_006](docs/arc/adr_006.md) | Sharding/routing as per location |
+| [ADR_007](docs/arc/adr_007.md) | Using External Identity Provider |
+| [ADR_008](docs/arc/adr_008.md) | Data needs to be anonymized for PII |
+| [ADR_009](docs/arc/adr_009.md) | 3rd party health hooks into the customer info |
+| [ADR_010](docs/arc/adr_010.md) | Recommendation engine is a batch system |
+| [ADR_011](docs/arc/adr_011.md) | Using microservices vs event driven |
+| [ADR_012](docs/arc/adr_012.md) | Use mobile friendly web app |
 
 ## Personas
 
 | Name | Role |
 |------|------|
-| Alice | Chef |
-| Barb | Kiosk Worker |
-| Edward | Delivery Driver |
-| Jennifer | Subscription Customer |
-| Mark | Nutritionist |
-| Scott | Occasional Customer |
+| [Alice](docs/personas/alice_(chef).md) | Chef |
+| [Barbara](docs/personas/barbara_(kiosk_worker).md) | Kiosk Worker |
+| [Edward](docs/personas/edward_(delivery_driver).md) | Delivery Driver |
+| [Jennifer](docs/personas/jennifer_(subscriber).md) | Subscription Customer |
+| [Mark](docs/personas/mark_(nutritionist).md) | Nutritionist |
+| [Scott](docs/personas/scott_(eater).md) | Occasional Customer |
 
 ## Intermediate Artifacts
 
