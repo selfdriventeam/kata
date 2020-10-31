@@ -1,4 +1,4 @@
-# Edward
+# [Edward](../../README.md)
 
 Edward is a Farmacy Food delivery person. Every morning he goes to the central kitchen, checks the inventory and requirements of the stops on his route, loads his truck and heads out.
 

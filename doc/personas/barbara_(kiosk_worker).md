@@ -1,4 +1,4 @@
-# Barbara
+# [Barbara](../../README.md)
 
 Barbara works at the corner coffe shop. Her coffee shop has a partnership arrangement with Farmacy Food, so Jennifer comes in 3 days a week to pick up her lunch. Barbara runs the Farmacy Food point-of-sale (POS) ternmial to make sure the Jennifer's subscription is up to date and gets her lunch.
 
