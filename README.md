@@ -95,4 +95,4 @@ Broken down into 9 major components in a micro-service based architecture, the s
 
 ## Intermediate Artifacts
 
-* [Actors/Actions for identifying subdomains](doc/arc/artifacts/actor_actions.md)
+* [Actors/Actions for identifying subdomains](doc/artifacts/actor_actions.md)
