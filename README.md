@@ -73,7 +73,7 @@ Broken down into 9 major components in a micro-service based architecture, the s
 | [ADR_014](doc/arc/adr_014.md) | Customer subdomain design decisions|
 | [ADR_015](doc/arc/adr_015.md) | Order subdomain design decisions|
 | [ADR_016](doc/arc/adr_016.md) | Billing & Pricing subdomain design decisions|
-| [ADR_017](doc/arc/adr_017.md) | Use queue to update the inventory and external notification|
+| [ADR_017](doc/arc/adr_017.md) | Use queue to update the inventory and external notification| 
 | [ADR_018](doc/arc/adr_018.md) | Notification subdomain design decisions|
 | [ADR_019](doc/arc/adr_019.md) | Inventory subdomain design decisions|
 | [ADR_020](doc/arc/adr_020.md) | Recommendation subdomain design decisions|
@@ -96,3 +96,4 @@ Broken down into 9 major components in a micro-service based architecture, the s
 ## Intermediate Artifacts
 
 * [Actors/Actions for identifying subdomains](doc/artifacts/actor_actions.md)
+* [Subdomains architecture characteristic](doc/artifacts/arch_characteristic.md)
