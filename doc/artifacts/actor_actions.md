@@ -3,8 +3,7 @@
 
 | Actor            | Action                                                |
 |------------------|-------------------------------------------------------|
-| Customer         |                                                       |
-|                  | Registration : name and unvalidated address           |
+| Customer         | Registration : name and unvalidated address           |
 |                  | Sign in                                               |
 |                  | Set geo/available  location and browse selections     |
 |                  | Place and order and choose Pickup/Delivery            |
