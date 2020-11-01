@@ -1,10 +1,9 @@
-# [artifacts_actor_actions](../../README.md)  Actor/Actions for identifying subdomains
+# [artifacts_actor_actions](../../README.md)  Use Actor/Actions approach for identifying subdomains
 
 
 | Actor            | Action                                                |
 |------------------|-------------------------------------------------------|
-| Customer         |                                                       |
-|                  | Registration : name and unvalidated address           |
+| Customer         | Registration : name and unvalidated address           |
 |                  | Sign in                                               |
 |                  | Set geo/available  location and browse selections     |
 |                  | Place and order and choose Pickup/Delivery            |
