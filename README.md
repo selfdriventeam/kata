@@ -6,7 +6,7 @@ selfdriventeam's architecture proposal for Farmacy Food
 ## Farmacy Food
 **Let Food Be Thy Medicine.**
 
-Farmacy Food creates tasty meals around your dietary needs, incorporating ingredients known to have beneficial properties to support your health and well-being.
+[Farmacy Food](https://www.farmacyfood.com/) creates tasty meals around your dietary needs, incorporating ingredients known to have beneficial properties to support your health and well-being.
 
 # Our Vision
 
