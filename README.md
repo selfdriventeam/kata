@@ -44,15 +44,15 @@ Broken down into 9 major components in a micro-service based architecture, the s
 
 | Index | Description |
 |-------|-------------|
-| A | [High Level Architecture](doc/images/high_level.svg) |
-| B | [Reccomendation Engine](doc/images/recommendation.svg) |
-| C | [Customer Domain](doc/images/custom_subdomain.svg) |
-| D | [Order Domain](doc/images/order_subdomain.svg) |
-| E | [Billing Domain](doc/images/pricing_subdomain.svg) |
-| F | [Inventory Domain](doc/images/inventory_subdomain.svg) |
-| G | [Notification Engine](doc/images/notification_subdomain.svg) |
-| H | [API Gateway](doc/images/api_gateway.svg) |
-| I | [UI Component](doc/images/ui_component.svg) |
+| A | [High Level Architecture](doc/arc/images/high_level.svg) |
+| B | [Reccomendation Engine](doc/arc/images/recommendation.svg) |
+| C | [Customer Domain](doc/arc/images/custom_subdomain.svg) |
+| D | [Order Domain](doc/arc/images/order_subdomain.svg) |
+| E | [Billing Domain](doc/arc/images/pricing_subdomain.svg) |
+| F | [Inventory Domain](doc/arc/images/inventory_subdomain.svg) |
+| G | [Notification Engine](doc/arc/images/notification_subdomain.svg) |
+| H | [API Gateway](doc/arc/images/api_gateway.svg) |
+| I | [UI Component](doc/arc/images/ui_component.svg) |
 
 ## Architectural Decision Records
 
