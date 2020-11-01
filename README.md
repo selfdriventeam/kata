@@ -87,7 +87,7 @@ Broken down into 9 major components in a micro-service based architecture, the s
 |------|------|
 | [Alice](doc/personas/alice_(chef).md) | Chef |
 | [Barbara](doc/personas/barbara_(kiosk_worker).md) | Kiosk Worker |
-| [Claire](doc/personas/claire_(analyst) | Analyst |
+| [Claire](doc/personas/claire_(analyst).md) | Analyst |
 | [Edward](doc/personas/edward_(delivery_driver).md) | Delivery Driver |
 | [Jennifer](doc/personas/jennifer_(subscriber).md) | Subscription Customer |
 | [Mark](doc/personas/mark_(nutritionist).md) | Nutritionist |
