@@ -97,3 +97,4 @@ Broken down into 9 major components in a micro-service based architecture, the s
 
 * [Actors/Actions for identifying subdomains](doc/artifacts/actor_actions.md)
 * [Component architecture characteristic](doc/artifacts/arch_characteristic.md)
+* [C4: FarmacyFood System context map](doc/arc/images/context_map.svg)
