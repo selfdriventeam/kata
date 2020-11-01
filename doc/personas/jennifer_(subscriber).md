@@ -1,6 +1,6 @@
 # [Jennifer](../../README.md)
 
-Jennifer is a FarmacyFood subscriber, she likes to eat healthy.
+Jennifer is a Farmacy Food subscriber, she likes to eat healthy.
 
 Jennifer subscribes to salad lunch every Monday and Wednesday and Friday. Jennifer goes to the coffee shop near her office at noon on Monday, Wednesday, and Friday to pick up her lunch, which was delivered fresh that morning.
 

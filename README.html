@@ -1,119 +1,134 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>README.html</title>
+  <title>README.html</title>
 
 </head>
 
 <body>
 
-<h1>Farmacy Food Kata</h1>
+  <h1>Farmacy Food Kata</h1>
 
-<p>selfdriventeam's architecture proposal for Farmacy Food</p>
+  <p>selfdriventeam's architecture proposal for Farmacy Food</p>
 
-<h1>The Customer</h1>
+  <h1>The Customer</h1>
 
-<h2>Farmacy Food</h2>
+  <h2>Farmacy Food</h2>
 
-<p><strong>Let Food Be Thy Medicine.</strong></p>
+  <p><strong>Let Food Be Thy Medicine.</strong></p>
 
-<p>Farmacy Food creates tasty meals around your dietary needs, incorporating ingredients known to have beneficial properties to support your health and well-being.
-Public repo for O'Reilly Kata Deliverables</p>
+  <p>Farmacy Food creates tasty meals around your dietary needs, incorporating ingredients known to have beneficial
+    properties to support your health and well-being.</p>
 
-<h1>Our Vision</h1>
+  <h1>Our Vision</h1>
 
-<p>SelfDrivenTeam sees a scalable, extensible system running on a cloud provider where the system scales itself up and down dynamically based on load and response times.</p>
+  <p>SelfDrivenTeam sees a scalable, extensible system running on a cloud provider where the system scales itself up and
+    down dynamically based on load and response times.</p>
 
-<p>SelfDrivenTeam's system provides secure, reliable functionality for Farmacy Food's customers, nutritionists, chefs, and delivery personel so they can focus on their areas of expertise while showcasing Farmacy Food's special sauce, the combination of the fresh, wholesome food, nutritionists, and a proprietary meal reccomendation engine to provide customers with fresh tasty, nutriutious, and low cost meals tailored to each customer's individual needs and preferences.</p>
+  <p>SelfDrivenTeam's system provides secure, reliable functionality for Farmacy Food's customers, nutritionists, chefs,
+    and delivery personel so they can focus on their areas of expertise while showcasing Farmacy Food's special sauce,
+    the combination of the fresh, wholesome food, nutritionists, and a proprietary meal reccomendation engine to provide
+    customers with fresh tasty, nutriutious, and low cost meals tailored to each customer's individual needs and
+    preferences.</p>
 
-<p>The system initally runs for the Detroit, Michigan area, but as service area and usage grows the system can easily scale out to handle multiple geographic areas <strong>and</strong> scale up within an area to handle increasing customer/POS density. The system includes all of the components needed to meet all of the current requirements and provides extensibility to add known and opportunistic future enhancements.</p>
+  <p>The system initally runs for the Detroit, Michigan area, but as service area and usage grows the system can easily
+    scale out to handle multiple geographic areas <strong>and</strong> scale up within an area to handle increasing
+    customer/POS density. The system includes all of the components needed to meet all of the current requirements and
+    provides extensibility to add known and opportunistic future enhancements.</p>
 
-<h1>Requirements from the customer</h1>
+  <h1>Requirements from the customer</h1>
 
-<h2>Users</h2>
+  <h2>Users</h2>
 
-<p>Dozens of automated fridges and representative run kiosks, thousands of customers.</p>
+  <p>Dozens of automated fridges and representative run kiosks, thousands of customers.</p>
 
-<h2>Requirements</h2>
+  <h2>Requirements</h2>
 
-<p>1) Must integrate with 3rd party smart fridges to obtain inventory and purchase activity
-1) Smart Fridges Produce item inventory levels and purchases. The smart fridges have a cloud based management system that handles communication with the Smart Fridge so obtaining this data would be through an API.
-1) Must integrate with point of sale system at kiosks
-1) The Kiosk is a sublet space inside another business where we will sell our product but have an employee handle the transactions through a point of sale. The same data should be accessible through the POS systems API’s.
-1) Mobile and Web accessible
-1) Support providing feedback on items of verified purchases and in app surveys
-1) Accept coupons and promotional pricing
-1) Send inventory updates to central kitchen</p>
+  <p>1) Must integrate with 3rd party smart fridges to obtain inventory and purchase activity
+    1) Smart Fridges Produce item inventory levels and purchases. The smart fridges have a cloud based management system
+    that handles communication with the Smart Fridge so obtaining this data would be through an API.
+    1) Must integrate with point of sale system at kiosks
+    1) The Kiosk is a sublet space inside another business where we will sell our product but have an employee handle
+    the transactions through a point of sale. The same data should be accessible through the POS systems API’s.
+    1) Mobile and Web accessible
+    1) Support providing feedback on items of verified purchases and in app surveys
+    1) Accept coupons and promotional pricing
+    1) Send inventory updates to central kitchen</p>
 
-<h2>Long term Goals</h2>
+  <h2>Long term Goals</h2>
 
-<p>1) Long term would like to allow multiple vendors to offer items through points of sale
-1) Wants to harvest data to provide personalized recommendations based on users health goals, purchase history, and item ratings</p>
+  <p>1) Long term would like to allow multiple vendors to offer items through points of sale
+    1) Wants to harvest data to provide personalized recommendations based on users health goals, purchase history, and
+    item ratings</p>
 
-<h1>Our Solution</h1>
+  <h1>Our Solution</h1>
 
-<p><em>High level architecture diagram goes here</em></p>
+  <p><em>High level architecture diagram goes here</em></p>
 
-<p>Broken down into 9 major components in a micro-service based architecture, the system provides a <strong>S.O.L.I.D.</strong> foundation for the next steps (detailed design and implementation). The following diagrams, Architectural Decision Records, Personas, and intermediate artifacts provide more detail on the benefits of the system and why various trade-offs were made when defining the achitecture.</p>
+  <p>Broken down into 9 major components in a micro-service based architecture, the system provides a
+    <strong>S.O.L.I.D.</strong> foundation for the next steps (detailed design and implementation). The following
+    diagrams, Architectural Decision Records, Personas, and intermediate artifacts provide more detail on the benefits
+    of the system and why various trade-offs were made when defining the achitecture.</p>
 
-<h2>Detailed Architectural Diagrams</h2>
+  <h2>Detailed Architectural Diagrams</h2>
 
-<p>| Index | Description |
-|-------|-------------|
-| A | High Level Architecture |
-| B | Reccomendation Engine |
-| C | Customer Domain |
-| D | Order Domain |
-| E | Billing Domain |
-| F | Inventory Domain |
-| G | Notification Engine |
-| H | API Gateway |
-| I | UI Conmponent |</p>
+  <p>| Index | Description |
+    |-------|-------------|
+    | A | High Level Architecture |
+    | B | Reccomendation Engine |
+    | C | Customer Domain |
+    | D | Order Domain |
+    | E | Billing Domain |
+    | F | Inventory Domain |
+    | G | Notification Engine |
+    | H | API Gateway |
+    | I | UI Conmponent |</p>
 
-<h2>Architectural Decision Records</h2>
+  <h2>Architectural Decision Records</h2>
 
-<p>| Index | Description |
-|-------|-------------|
-| <a href="doc/arc/adr_001.md">ADR<em>001</a> | Use actor/action to identify components |
-| <a href="doc/arc/adr_002.md">ADR</em>002</a> | No delivery component is needed for now |
-| <a href="doc/arc/adr_003.md">ADR<em>003</a> | Require stock monitoring and calibration |
-| <a href="doc/arc/adr_004.md">ADR</em>004</a> | Using a notification system |
-| <a href="doc/arc/adr_006.md">ADR<em>006</a> | Sharding/routing as per location |
-| <a href="doc/arc/adr_007.md">ADR</em>007</a> | Using External Identity Provider |
-| <a href="doc/arc/adr_008.md">ADR<em>008</a> | Data needs to be anonymized for PII |
-| <a href="doc/arc/adr_009.md">ADR</em>009</a> | 3rd party health hooks into the customer info |
-| <a href="doc/arc/adr_010.md">ADR<em>010</a> | Recommendation engine is a batch system |
-| <a href="doc/arc/adr_011.md">ADR</em>011</a> | Using micro-services vs event driven |
-| <a href="doc/arc/adr_012.md">ADR<em>012</a> | Use mobile friendly web app |
-| <a href="doc/arc/adr_013.md">ADR</em>013</a> | Use REST between Customer, Order and Pricing |
-| <a href="doc/arc/adr_014.md">ADR<em>014</a> | Customer subdomain design decisions|
-| <a href="doc/arc/adr_015.md">ADR</em>015</a> | Order subdomain design decisions|
-| <a href="doc/arc/adr_016.md">ADR<em>016</a> | Billing &amp; Pricing subdomain design decisions|
-| <a href="doc/arc/adr_017.md">ADR</em>017</a> | Use queue to update the inventory and external notification|
-| <a href="doc/arc/adr_018.md">ADR<em>018</a> | Notification subdomain design decisions|
-| <a href="doc/arc/adr_019.md">ADR</em>019</a> | Inventory subdomain design decisions|
-| <a href="doc/arc/adr_020.md">ADR_020</a> | Recommendation subdomain design decisions|</p>
+  <p>| Index | Description |
+    |-------|-------------|
+    | <a href="doc/arc/adr_001.md">ADR<em>001</a> | Use actor/action to identify components |
+    | <a href="doc/arc/adr_002.md">ADR<em>002</a> | No delivery component is needed for now |
+    | <a href="doc/arc/adr_003.md">ADR<em>003</a> | Require stock monitoring and calibration |
+    | <a href="doc/arc/adr_004.md">ADR<em>004</a> | Using a notification system |
+    | <a href="doc/arc/adr_006.md">ADR<em>006</a> | Sharding/routing as per location |
+    | <a href="doc/arc/adr_007.md">ADR<em>007</a> | Using External Identity Provider |
+    | <a href="doc/arc/adr_008.md">ADR<em>008</a> | Data needs to be anonymized for PII |
+    | <a href="doc/arc/adr_009.md">ADR<em>009</a> | 3rd party health hooks into the customer info |
+    | <a href="doc/arc/adr_010.md">ADR<em>010</a> | Recommendation engine is a batch system |
+    | <a href="doc/arc/adr_011.md">ADR<em>011</a> | Using micro-services vs event driven |
+    | <a href="doc/arc/adr_012.md">ADR<em>012</a> | Use mobile friendly web app |
+    | <a href="doc/arc/adr_013.md">ADR<em>013</a> | Use REST between Customer, Order and Pricing |
+    | <a href="doc/arc/adr_014.md">ADR<em>014</a> | Customer subdomain design decisions|
+    | <a href="doc/arc/adr_015.md">ADR<em>015</a> | Order subdomain design decisions|
+    | <a href="doc/arc/adr_016.md">ADR<em>016</a> | Billing &amp; Pricing subdomain design decisions|
+    | <a href="doc/arc/adr_017.md">ADR<em>017</a> | Use queue to update the inventory and external notification|
+    | <a href="doc/arc/adr_018.md">ADR<em>018</a> | Notification subdomain design decisions|
+    | <a href="doc/arc/adr_019.md">ADR<em>019</a> | Inventory subdomain design decisions|
+    | <a href="doc/arc/adr_020.md">ADR<em>020</a> | Recommendation subdomain design decisions|</p>
 
-<h2>Personas</h2>
+  <h2>Personas</h2>
 
-<p>| Name | Role |
-|------|------|
-| <a href="doc/personas/alice_(chef">Alice</a>.md) | Chef |
-| <a href="doc/personas/barbara_(kiosk_worker">Barbara</a>.md) | Kiosk Worker |
-| <a href="doc/personas/edward_(delivery_driver">Edward</a>.md) | Delivery Driver |
-| <a href="doc/personas/jennifer_(subscriber">Jennifer</a>.md) | Subscription Customer |
-| <a href="doc/personas/mark_(nutritionist">Mark</a>.md) | Nutritionist |
-| <a href="doc/personas/scott_(eater">Scott</a>.md) | Occasional Customer |</p>
+  <p>| Name | Role |
+    |------|------|
+    | <a href="doc/personas/alice_(chef).md">Alice</a>) | Chef |
+    | <a href="doc/personas/barbara_(kiosk_worker).md">Barbara</a>) | Kiosk Worker |
+    | <a href="doc/personas/claire_(analyst).md">Claire</a>) | Analyst |
+    | <a href="doc/personas/edward_(delivery_driver).md">Edward</a>) | Delivery Driver |
+    | <a href="doc/personas/jennifer_(subscriber).md">Jennifer</a>) | Subscription Customer |
+    | <a href="doc/personas/mark_(nutritionist).md">Mark</a>) | Nutritionist |
+    | <a href="doc/personas/scott_(eater).md">Scott</a>) | Occasional Customer |</p>
 
-<h2>Intermediate Artifacts</h2>
+  <h2>Intermediate Artifacts</h2>
 
-<ul>
-<li><a href="doc/artifacts/actor_actions.md">Actors/Actions for identifying subdomains</a></li>
-</ul>
+  <ul>
+    <li><a href="doc/artifacts/actor_actions.md">Actors/Actions for identifying subdomains</a></li>
+  </ul>
 
 </body>
+
 </html>
