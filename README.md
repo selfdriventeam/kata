@@ -7,7 +7,6 @@ selfdriventeam's architecture proposal for Farmacy Food
 **Let Food Be Thy Medicine.**
 
 Farmacy Food creates tasty meals around your dietary needs, incorporating ingredients known to have beneficial properties to support your health and well-being.
-Public repo for O'Reilly Kata Deliverables
 
 # Our Vision
 
@@ -88,6 +87,7 @@ Broken down into 9 major components in a micro-service based architecture, the s
 |------|------|
 | [Alice](doc/personas/alice_(chef).md) | Chef |
 | [Barbara](doc/personas/barbara_(kiosk_worker).md) | Kiosk Worker |
+| [Claire](doc/personas/claire_(analyst) | Analyst |
 | [Edward](doc/personas/edward_(delivery_driver).md) | Delivery Driver |
 | [Jennifer](doc/personas/jennifer_(subscriber).md) | Subscription Customer |
 | [Mark](doc/personas/mark_(nutritionist).md) | Nutritionist |
