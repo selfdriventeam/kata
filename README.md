@@ -44,15 +44,15 @@ Broken down into 9 major components in a micro-service based architecture, the s
 
 | Index | Description |
 |-------|-------------|
-| A | High Level Architecture |
-| B | Reccomendation Engine |
-| C | Customer Domain |
-| D | Order Domain |
-| E | Billing Domain |
-| F | Inventory Domain |
-| G | Notification Engine |
-| H | API Gateway |
-| I | UI Component |
+| A | [High Level Architecture](doc/images/high_level.svg) |
+| B | [Reccomendation Engine](doc/images/recommendation.svg) |
+| C | [Customer Domain](doc/images/custom_subdomain.svg) |
+| D | [Order Domain](doc/images/order_subdomain.svg) |
+| E | [Billing Domain](doc/images/pricing_subdomain.svg) |
+| F | [Inventory Domain](doc/images/inventory_subdomain.svg) |
+| G | [Notification Engine](doc/images/notification_subdomain.svg) |
+| H | [API Gateway](doc/images/api_gateway.svg) |
+| I | [UI Component](doc/images/ui_component.svg) |
 
 ## Architectural Decision Records
 
