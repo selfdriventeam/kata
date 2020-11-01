@@ -52,7 +52,7 @@ Broken down into 9 major components in a micro-service based architecture, the s
 | F | Inventory Domain |
 | G | Notification Engine |
 | H | API Gateway |
-| I | UI Conmponent |
+| I | UI Component |
 
 ## Architectural Decision Records
 
