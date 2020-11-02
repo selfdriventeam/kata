@@ -46,11 +46,11 @@ Broken down into 9 major components in a micro-service based architecture, the s
 |-------|-------------|
 | A | [High Level Architecture](doc/arc/components/high_level.md) |
 | B | [Recomendation Engine](doc/arc/components/recommendation_engine.md) |
-| C | [Customer Domain](doc/arc/components/custom_domain.md) |
+| C | [Customer Domain](doc/arc/components/customer_domain.md) |
 | D | [Order Domain](doc/arc/components/order_domain.md) |
 | E | [Billing Domain](doc/arc/components/billing_domain.md) |
 | F | [Inventory Domain](doc/arc/components/inventory_domain.md) |
-| G | [Notification Engine](doc/arc/compomnents/notification_engine.md) |
+| G | [Notification Engine](doc/arc/components/notification_engine.md) |
 | H | [API Gateway](doc/arc/components/api_gateway.md) |
 | I | [UI Component](doc/arc/components/ui_component.md) |
 
