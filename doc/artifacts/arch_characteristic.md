@@ -8,9 +8,10 @@
 
 
 ## API Gateway
-* Available 
 * Security 
+* Available
 * Reliable 
+
 
 ## Customer system
 * Adaptable
@@ -20,7 +21,7 @@
 ## Order system
 * Reliable 
 * Durable 
-* Responsive
+* Low latency
 
 ## Billing & Pricing system
 * Durable 
