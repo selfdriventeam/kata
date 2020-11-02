@@ -50,9 +50,9 @@ Broken down into 9 major components in a micro-service based architecture, the s
 | D | [Order Domain](doc/arc/images/order_subdomain.svg) |
 | E | [Billing Domain](doc/arc/images/pricing_subdomain.svg) |
 | F | [Inventory Domain](doc/arc/images/inventory_subdomain.svg) |
-| G | [Notification Engine](doc/arc/images/notification_subdomain.svg) |
-| H | [API Gateway](doc/arc/images/api_gateway.svg) |
-| I | [UI Component](doc/arc/images/ui_component.svg) |
+| G | [?? Notification Engine](doc/arc/images/notification_subdomain.svg) |
+| H | [?? API Gateway](doc/arc/images/api_gateway.svg) |
+| I | [?? UI Component](doc/arc/images/ui_component.svg) |
 
 ## Architectural Decision Records
 
