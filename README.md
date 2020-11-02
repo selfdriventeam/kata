@@ -45,12 +45,12 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | Index | Description |
 |-------|-------------|
 | A | [High Level Architecture](doc/arc/images/high_level.svg) |
-| B | [Reccomendation Engine](doc/arc/images/recommendation.svg) |
-| C | [Customer Domain](doc/arc/images/custom_subdomain.svg) |
-| D | [Order Domain](doc/arc/images/order_subdomain.svg) |
-| E | [Billing Domain](doc/arc/images/pricing_subdomain.svg) |
-| F | [Inventory Domain](doc/arc/images/inventory_subdomain.svg) |
-| G | [?? Notification Engine](doc/arc/images/notification_subdomain.svg) |
+| B | [Reccomendation Engine](doc/arc/images/recommendation_domain.svg) |
+| C | [Customer Domain](doc/arc/images/custom_domain.svg) |
+| D | [Order Domain](doc/arc/images/order_domain.svg) |
+| E | [Billing Domain](doc/arc/images/billing_domain.svg) |
+| F | [Inventory Domain](doc/arc/images/inventory_domain.svg) |
+| G | [?? Notification Engine](doc/arc/images/notification_domain.svg) |
 | H | [?? API Gateway](doc/arc/images/api_gateway.svg) |
 | I | [?? UI Component](doc/arc/images/ui_component.svg) |
 
