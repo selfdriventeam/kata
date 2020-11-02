@@ -50,7 +50,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | D | [Order Domain](doc/arc/images/order_domain.svg) |
 | E | [Billing Domain](doc/arc/images/billing_domain.svg) |
 | F | [Inventory Domain](doc/arc/images/inventory_domain.svg) |
-| G | [?? Notification Engine](doc/arc/images/notification_domain.svg) |
+| G | [Notification Engine](doc/arc/images/notification_domain.svg) |
 | H | [?? API Gateway](doc/arc/images/api_gateway.svg) |
 | I | [?? UI Component](doc/arc/images/ui_component.svg) |
 
@@ -62,11 +62,11 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | [ADR_002](doc/arc/adrs/adr_002.md) | No delivery component is needed for now |
 | [ADR_003](doc/arc/adrs/adr_003.md) | Require stock monitoring and calibration |
 | [ADR_004](doc/arc/adrs/adr_004.md) | Using a notification system |
-| [ADR_006](doc/arc/adrs/adr_006.md) | Sharding/routing as per location |
+| [??ADR_006](doc/arc/adrs/adr_006.md) | Sharding/routing as per location |
 | [ADR_007](doc/arc/adrs/adr_007.md) | Using External Identity Provider |
-| [ADR_008](doc/arc/adrs/adr_008.md) | Data needs to be anonymized for PII |
-| [ADR_009](doc/arc/adrs/adr_009.md) | 3rd party health hooks into the customer info |
-| [ADR_010](doc/arc/adrs/adr_010.md) | Recommendation engine is a batch system |
+| [??ADR_008](doc/arc/adrs/adr_008.md) | Data needs to be anonymized for PII |
+| [??ADR_009](doc/arc/adrs/adr_009.md) | 3rd party health hooks into the customer info |
+| [??ADR_010](doc/arc/adrs/adr_010.md) | Recommendation engine is a batch system |
 | [ADR_011](doc/arc/adrs/adr_011.md) | Using micro-services vs event driven |
 | [ADR_012](doc/arc/adrs/adr_012.md) | Use mobile friendly web app |
 | [ADR_013](doc/arc/adrs/adr_013.md) | Use REST between Customer, Order and Pricing |
@@ -76,7 +76,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | [ADR_017](doc/arc/adrs/adr_017.md) | Use queue to update the inventory and external notification|
 | [ADR_018](doc/arc/adrs/adr_018.md) | Notification subdomain design decisions|
 | [ADR_019](doc/arc/adrs/adr_019.md) | Inventory subdomain design decisions|
-| [ADR_020](doc/arc/adrs/adr_020.md) | Recommendation subdomain design decisions|
+| [??ADR_020](doc/arc/adrs/adr_020.md) | Recommendation subdomain design decisions|
 
 
 ## Personas

@@ -12,34 +12,36 @@
 * Security 
 * Reliable 
 
-## Customer 
+## Customer system
 * Adaptable
 * Security 
 * Extensible
 
-## Order 
+## Order system
 * Reliable 
 * Durable 
 * Responsive
 
-## Billing & Pricing 
+## Billing & Pricing system
 * Durable 
 * Security 
 * Accurate
 * Customizable (Coupon and promotions)
 
-## Inventory
+## Inventory system
 * Trackable 
 * Accurate 
 * Consistent
 * Customizable (3rd party vendor)
 
-## Notification 
-* Durable 
+## Notification system
+* Scalable 
+* Highly Available
+* Durable (Message will not lost, each subscribe must receive every message at least <once)
 * Reliable
-* Available
 
-## Recommendation 
+
+## Recommendation system
 * Security
 * Customizable 
 
