@@ -8,7 +8,7 @@ The **Customer Service** provides the interface and authorization based on prese
 
 The **Anonymizer/Aggregator** is responsible for ensuring that any data returned from the Customer Domain for display, notification, reccomendations, or future plans is properly filtered/massaged to prevent leakage of protected data.
 
-The **Serveyor** is reponsible for managing any customer surveys, handling scheduling, respondent selection, and compliation of results.
+The **Surveyor** is reponsible for managing any customer surveys, handling scheduling, respondent selection, and compliation of results.
 
 The **Customer Database** maintains the source of truth for the majority of data Farmacy Food maintains on it's customers. This includes, but is not limited to, name, address, contact info, financial info, personal preferences, and subscription data.
 
