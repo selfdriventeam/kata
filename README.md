@@ -45,7 +45,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | Index | Description |
 |-------|-------------|
 | A | [High Level Architecture](doc/arc/images/high_level.svg) |
-| B | [Reccomendation Engine](doc/arc/images/recommendation_domain.svg) |
+| B | [Recommendation Engine](doc/arc/images/recommendation_domain.svg) |
 | C | [Customer Domain](doc/arc/images/customer_domain.svg) |
 | D | [Order Domain](doc/arc/images/order_domain.svg) |
 | E | [Billing Domain](doc/arc/images/billing_domain.svg) |
@@ -62,9 +62,10 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | [ADR_002](doc/arc/adrs/adr_002.md) | No delivery component is needed for now |
 | [ADR_003](doc/arc/adrs/adr_003.md) | Require stock monitoring and calibration |
 | [ADR_004](doc/arc/adrs/adr_004.md) | Using a notification system |
-| [??ADR_006](doc/arc/adrs/adr_006.md) | Sharding/routing as per location |
+| [ADR_005](doc/arc/adrs/adr_005.md) | Component level authorization rules for access control |
+| [ADR_006](doc/arc/adrs/adr_006.md) | Sharding/routing as per location |
 | [ADR_007](doc/arc/adrs/adr_007.md) | Using External Identity Provider |
-| [??ADR_008](doc/arc/adrs/adr_008.md) | Data needs to be anonymized for PII |
+| [ADR_008](doc/arc/adrs/adr_008.md) | PII Data should be anonymized |
 | [??ADR_009](doc/arc/adrs/adr_009.md) | 3rd party health hooks into the customer info |
 | [??ADR_010](doc/arc/adrs/adr_010.md) | Recommendation engine is a batch system |
 | [ADR_011](doc/arc/adrs/adr_011.md) | Using micro-services vs event driven |
@@ -76,7 +77,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | [ADR_017](doc/arc/adrs/adr_017.md) | Use queue to update the inventory and external notification|
 | [ADR_018](doc/arc/adrs/adr_018.md) | Notification subdomain design decisions|
 | [ADR_019](doc/arc/adrs/adr_019.md) | Inventory subdomain design decisions|
-| [??ADR_020](doc/arc/adrs/adr_020.md) | Recommendation subdomain design decisions|
+| [ADR_020](doc/arc/adrs/adr_020.md) | Hybrid approach for recommendation component|
 
 
 ## Personas
