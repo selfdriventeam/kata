@@ -1,3 +1,3 @@
 # [Recommendation Engine](../../../README.md)
 
-![Recomendation Engine](../images/recommendation_engine.svg)
+![Recomendation Engine](../images/recommendation_domain.svg)
