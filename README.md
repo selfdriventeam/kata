@@ -44,7 +44,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 
 | Index | Description |
 |-------|-------------|
-| A | [High Level Architecture](doc/arc/images/high_level.svg) |
+| A | [High Level Architecture](doc/arc/components/high_level.md) |
 | B | [Reccomendation Engine](doc/arc/images/recommendation_domain.svg) |
 | C | [Customer Domain](doc/arc/images/customer_domain.svg) |
 | D | [Order Domain](doc/arc/images/order_domain.svg) |
