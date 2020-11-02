@@ -50,7 +50,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | D | [Order Domain](doc/arc/images/order_domain.svg) |
 | E | [Billing Domain](doc/arc/images/billing_domain.svg) |
 | F | [Inventory Domain](doc/arc/images/inventory_domain.svg) |
-| G | [?? Notification Engine](doc/arc/images/notification_domain.svg) |
+| G | [Notification Engine](doc/arc/images/notification_domain.svg) |
 | H | [?? API Gateway](doc/arc/images/api_gateway.svg) |
 | I | [?? UI Component](doc/arc/images/ui_component.svg) |
 
@@ -66,8 +66,8 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | [ADR_006](doc/arc/adrs/adr_006.md) | Sharding/routing as per location |
 | [ADR_007](doc/arc/adrs/adr_007.md) | Using External Identity Provider |
 | [ADR_008](doc/arc/adrs/adr_008.md) | PII Data should be anonymized |
-| [ADR_009](doc/arc/adrs/adr_009.md) | 3rd party health hooks into the customer info |
-| [ADR_010](doc/arc/adrs/adr_010.md) | Recommendation engine is a batch system |
+| [??ADR_009](doc/arc/adrs/adr_009.md) | 3rd party health hooks into the customer info |
+| [??ADR_010](doc/arc/adrs/adr_010.md) | Recommendation engine is a batch system |
 | [ADR_011](doc/arc/adrs/adr_011.md) | Using micro-services vs event driven |
 | [ADR_012](doc/arc/adrs/adr_012.md) | Use mobile friendly web app |
 | [ADR_013](doc/arc/adrs/adr_013.md) | Use REST between Customer, Order and Pricing |
