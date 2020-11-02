@@ -52,7 +52,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | F | [Inventory Domain](doc/arc/components/inventory_domain.md) |
 | G | [Notification Engine](doc/arc/components/notification_engine.md) |
 | H | [API Gateway](doc/arc/components/api_gateway.md) |
-| I | [?? UI Component](doc/arc/components/ui_component.md) |
+| I | [UI Component](doc/arc/components/ui_component.md) |
 
 ## Architectural Decision Records
 
