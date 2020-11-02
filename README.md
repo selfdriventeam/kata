@@ -77,7 +77,7 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | [ADR_017](doc/arc/adrs/adr_017.md) | Use queue to update the inventory and external notification|
 | [ADR_018](doc/arc/adrs/adr_018.md) | Notification subdomain design decisions|
 | [ADR_019](doc/arc/adrs/adr_019.md) | Inventory subdomain design decisions|
-| [ADR_020](doc/arc/adrs/adr_020.md) | Recommendation subdomain design decisions|
+| [ADR_020](doc/arc/adrs/adr_020.md) | Hybrid approach for recommendation component|
 
 
 ## Personas
