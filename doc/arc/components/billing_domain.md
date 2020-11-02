@@ -12,7 +12,7 @@ The **Payments Engine** is responsible for all external communications with 3rd 
 
 The **Billing Database** maintains the source of truth for all pricing and coupon/discount/promotions. No customer data is stored in the billing database
 
-## Comminicates With:
+## Communicates With:
 * [Customer Domain](/doc/arc/components/customer_domain.md) for processing subscription payments
 * [Notification Engine](/doc/arc/components/notification_engine.md) for sending out information on failures
 * [Order Domain](/doc/arc/components/order_domain.md) to provide up-front pricing and upon order placement

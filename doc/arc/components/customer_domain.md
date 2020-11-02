@@ -14,7 +14,7 @@ The **Customer Database** maintains the source of truth for the majority of data
 
 The (optional) **HIPAA Database** will be be used in the future to maintain the source of truth for any secure personal medical information used by the [Recomendation Engine](/doc/arc/components/recommendation_engine.md)
 
-## Comminicates With:
+## Communicates With:
 * [Notification Engine](/doc/arc/components/notification_engine.md) for sending out survey information
 * [Order Domain](/doc/arc/components/order_domain.md) to correlate orders with customers
 * [Recomendation Engine](/doc/arc/components/recommendation_engine.md) via anonymized data
