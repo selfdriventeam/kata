@@ -44,15 +44,15 @@ Broken down into 9 major components in a micro-service based architecture, the s
 
 | Index | Description |
 |-------|-------------|
-| A | [High Level Architecture](doc/arc/images/high_level.svg) |
-| B | [Reccomendation Engine](doc/arc/images/recommendation.svg) |
-| C | [Customer Domain](doc/arc/images/custom_subdomain.svg) |
-| D | [Order Domain](doc/arc/images/order_subdomain.svg) |
-| E | [Billing Domain](doc/arc/images/pricing_subdomain.svg) |
-| F | [Inventory Domain](doc/arc/images/inventory_subdomain.svg) |
-| G | [Notification Engine](doc/arc/images/notification_subdomain.svg) |
-| H | [API Gateway](doc/arc/images/api_gateway.svg) |
-| I | [UI Component](doc/arc/images/ui_component.svg) |
+| A | [High Level Architecture](doc/arc/components/high_level.md) |
+| B | [Recomendation Engine](doc/arc/components/recommendation_engine.md) |
+| C | [Customer Domain](doc/arc/components/custom_domain.md) |
+| D | [Order Domain](doc/arc/components/order_domain.md) |
+| E | [Billing Domain](doc/arc/components/billing_domain.md) |
+| F | [Inventory Domain](doc/arc/components/inventory_domain.md) |
+| G | [Notification Engine](doc/arc/compomnents/notification_engine.md) |
+| H | [API Gateway](doc/arc/components/api_gateway.md) |
+| I | [UI Component](doc/arc/components/ui_component.md) |
 
 ## Architectural Decision Records
 
@@ -77,8 +77,6 @@ Broken down into 9 major components in a micro-service based architecture, the s
 | [ADR_018](doc/arc/adrs/adr_018.md) | Notification subdomain design decisions|
 | [ADR_019](doc/arc/adrs/adr_019.md) | Inventory subdomain design decisions|
 | [ADR_020](doc/arc/adrs/adr_020.md) | Recommendation subdomain design decisions|
-
-
 
 
 ## Personas
