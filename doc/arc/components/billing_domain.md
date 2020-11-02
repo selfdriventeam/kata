@@ -1,3 +1,3 @@
 # [Billing Domain](../../../README.md)
 
-![Billing Domain](../images/pricing_subdomain.svg)
+![Billing Domain](../../images/pricing_subdomain.svg)

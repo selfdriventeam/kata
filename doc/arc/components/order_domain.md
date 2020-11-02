@@ -1,3 +1,3 @@
 # [Order Domain](../../../README.md)
 
-![Order Domain](../images/order_subdomain.svg)
+![Order Domain](../../images/order_subdomain.svg)
