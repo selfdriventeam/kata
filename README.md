@@ -40,7 +40,7 @@ Dozens of automated fridges and representative run kiosks, thousands of customer
 
 Broken down into 8 major components in a micro-service based architecture, the system provides a **S.O.L.I.D.** foundation for the next steps (detailed design and implementation). The following diagrams, Architectural Decision Records, Personas, and intermediate artifacts provide more detail on the benefits of the system and why various trade-offs were made when defining the achitecture.
 
-## Detailed Architectural
+## Detailed Architecture
 
 | Index | Description |
 |-------|-------------|
