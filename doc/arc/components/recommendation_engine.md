@@ -11,7 +11,7 @@ The **Offline ML Model Trainer** batch component will periodically take customer
 
 The **Inference Service** takes precalculated models and runs them against the current inventory to generate a specific recommendation that can be fulfilled by inventory on-hand.
 
-The **Recommendation Merger** takes the specific personalized recommendation generated and merges it with the autmatically generated generic reccomandations and any manually created generic/personalized recommendations. This ensures that as long as there is a manually defined recommendation every request will have something to return.
+The **Recommendation Merger** takes the specific personalized recommendation generated and merges it with any manually created generic/personalized recommendations. This ensures that as long as there is a manually defined recommendation every request will have something to return.
 
 The **Recommendation Database** maintains the source of truth for all recommendation models, specific and generic, both automatically and manually generated.
 
@@ -20,5 +20,5 @@ The **Recommendation Database** maintains the source of truth for all recommenda
 * [Inventory Domain](/doc/arc/components/inventory_domain.md) for information on current inventory
 * [Notification Engine](/doc/arc/components/notification_engine.md) for letting customers know a new recommendation is available
 * [Order Domain](/doc/arc/components/order_domain.md) for access to customer meal ratings and order history
-* [UI Component](/doc/arc/components/ui_component.md) for displaying recomendations to the customer
+* [UI Component](/doc/arc/components/ui_component.md) for displaying recommendations to the customer
 
