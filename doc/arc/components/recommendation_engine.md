@@ -1,8 +1,8 @@
 # [Recommendation Engine](../../../README.md)
 
-![Recomendation Engine](../images/recommendation_domain.svg)
+![Recommendation Engine](../images/recommendation_domain.svg)
 
-The **Reccomendation Engine** is the core of Farmacy Food's value add. It consists of 3 major online components, an offline/batch component, and 1 major database. In the initial implementation the ML component will not be implemented, instead relying on manual input from nutritionists to set the recommendations, but the addition of the MLcomponent is planned and designed for.
+The **Recommendation Engine** is the core of Farmacy Food's value add. It consists of 3 major online components, an offline/batch component, and 1 major database. In the initial implementation the ML component will not be implemented, instead relying on manual input from nutritionists to set the recommendations, but the addition of the MLcomponent is planned and designed for.
 
 
 The **Recommendation Service** provides the interface and authorization based on presented ID. All requests to the recommendation engine **must** go through the **Recommendation Service**.
