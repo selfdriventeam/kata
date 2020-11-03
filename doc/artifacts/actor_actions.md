@@ -6,7 +6,7 @@
 | Customer         | Registration : name and unvalidated address           |
 |                  | Sign in                                               |
 |                  | Set geo/available  location and browse selections     |
-|                  | Place and order and choose Pickup/Delivery            |
+|                  | Place an order and choose Pickup/Delivery            |
 |                  | Make payment / Receive & Apply Coupon                 |
 |                  | Manage subscriptions                                  |
 |                  | Rate meal / service / location                        |
@@ -26,21 +26,21 @@
 |                  | PU outdated items                                     |
 | System           | Sign In                                               |
 |                  | Order domain: receive, validation items and pricing   |
-|                  | Billing domain: vadlition billing, charge credit card |
-|                  | Shipping domain : validation shipping , and ship      |
+|                  | Billing domain: validate billing, charge credit card  |
+|                  | Shipping domain : validate shipping , and ship        |
 |                  | Inventory domain : updating  internal system          |
 |                  | Track Ratings                                         |
 |                  | Acknowledgement/Notification/Receipt to customer      |
 |                  | Notification to delivery                              |
-|                  | Send promotion coupons                                |
+|                  | Send promotional coupons                              |
 | Chef             | Plan meals according to inventory info                |
 |                  | Cook meals                                            |
 |                  | Inventory Manager                                     |
 |                  | Order supplies                                        |
 |                  | Update item prices                                    |
 | Business Analyst | View historical data by                               |
-|                  | Customer                                              |
-|                  | Food Item                                             |
-|                  | Time                                                  |
-|                  | Location                                              |
+|                  |   Customer                                            |
+|                  |   Food Item                                           |
+|                  |   Time                                                |
+|                  |   Location                                            |
 |                  | Predict future usage                                  |
