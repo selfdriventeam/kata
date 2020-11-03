@@ -6,9 +6,9 @@ The Customer Domain consists of 3 major subsystems and 2 major databases. It man
 
 The **Customer Service** provides the interface and authorization based on presented ID. All requests to the customer domain **must** go through the **Customer Service**.
 
-The **Anonymizer/Aggregator** is responsible for ensuring that any data returned from the Customer Domain for display, notification, reccomendations, or future plans is properly filtered/massaged to prevent leakage of protected data.
+The **Anonymizer/Aggregator** is responsible for ensuring that any data returned from the Customer Domain for display, notification, recommendations, or future plans is properly filtered/massaged to prevent leakage of protected data.
 
-The **Surveyor** is reponsible for managing any customer surveys, handling scheduling, respondent selection, and compliation of results.
+The **Surveyor** is responsible for managing any customer surveys, handling scheduling, respondent selection, and compilation of results.
 
 The **Customer Database** maintains the source of truth for the majority of data Farmacy Food maintains on its customers. This includes, but is not limited to, name, address, contact info, financial info, personal preferences, and subscription data.
 
