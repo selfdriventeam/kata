@@ -11,7 +11,7 @@ The **Offline ML Model Trainer** batch component will periodically take customer
 
 The **Inference Service** takes precalculated models and runs them against the current inventory to generate a specific recommendation that can be fulfilled by inventory on-hand.
 
-The **Recommendation Merger** takes the specific personalized recommendation generated automatically and merges it autmatically generated generic reccomandationas and any manually created generic/personallized recommendations. This ensures that as long as there is a manually defined recommendation every request will have something to return.
+The **Recommendation Merger** takes the specific personalized recommendation generated and merges it with the autmatically generated generic reccomandations and any manually created generic/personalized recommendations. This ensures that as long as there is a manually defined recommendation every request will have something to return.
 
 The **Recommendation Database** maintains the source of truth for all recommendation models, specific and generic, both automatically and manually generated.
 
