@@ -38,7 +38,7 @@
 ## Notification system
 * Scalable 
 * Highly Available
-* Durable (Message will not lost, each subscribe must receive every message at least <once)
+* Durable (Messages will not be lost, each subscriber must receive every message at least once)
 * Reliable
 
 
