@@ -8,7 +8,7 @@ The **Inventory Service** provides the interface and authorization based on pres
 
 The **Poller** is responsible for periodically reaching out to all of the known SmartFridge devices, getting the current inventory, and updating stored inventory based on reported information.
 
-The **Alerter** is reponsible for the restock lists for delivery drivers and notifying if a SmartFrige/Kiosk goes below a specified level or food reaches it's expiration date so that a delivery driver can be dispatched to restock.
+The **Alerter** is responsible for the restock lists for delivery drivers and notifying if a SmartFrige/Kiosk goes below a specified level or food reaches it's expiration date so that a delivery driver can be dispatched to restock.
 
 The **Inventory Database** maintains the source of truth of inventory for each SmartFridge/Kiosk.
 

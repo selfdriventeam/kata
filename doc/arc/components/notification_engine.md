@@ -8,7 +8,7 @@ The **Public API** provides APIs such as <code>create_topic, subscribe_topic</co
 
 The **Message Retriever** is responsible of interaction with the queue.
 
-The **Retry Mechanism** ensures each client receives message at least once. It has in-memory database to retry the message for a predefined number of time, and when all these attempts fail, it persistents the message into **Short Term Message Database** for retry later.
+The **Retry Mechanism** ensures each client receives message at least once. It has in-memory database to retry the message for a predefined number of time, and when all these attempts fail, it persistent the message into **Short Term Message Database** for retry later.
 
 The **Sender** encapsulates all the details of interfacing with SMS, Email Push Notification libraries.
 
