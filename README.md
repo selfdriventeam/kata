@@ -94,6 +94,6 @@ Broken down into 8 major components in a micro-service based architecture, the s
 
 ## Intermediate Artifacts
 
-* [Actors/Actions for identifying subdomains](doc/artifacts/actor_actions.md)
+* [Actors/Actions analysis for identifying subdomains](doc/artifacts/actor_actions.md)
 * [Component architecture characteristic](doc/artifacts/arch_characteristic.md)
 * [C4(Context map): FarmacyFood System](doc/arc/images/context_map.svg)
