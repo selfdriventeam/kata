@@ -12,9 +12,9 @@ selfdriventeam's architecture proposal for Farmacy Food
 
 SelfDrivenTeam sees a scalable, extensible system running on a cloud provider where the system scales itself up and down dynamically based on load and response times.
 
-SelfDrivenTeam's system provides secure, reliable functionality for Farmacy Food's customers, nutritionists, chefs, and delivery personel so they can focus on their areas of expertise while showcasing Farmacy Food's special sauce, the combination of the fresh, wholesome food, nutritionists, and a proprietary meal reccomendation engine to provide customers with fresh tasty, nutriutious, and low cost meals tailored to each customer's individual needs and preferences.
+SelfDrivenTeam's system provides secure, reliable functionality for Farmacy Food's customers, nutritionists, chefs, and delivery personnel so they can focus on their areas of expertise while showcasing Farmacy Food's special sauce, the combination of the fresh, wholesome food, nutritionists, and a proprietary meal recommendation engine to provide customers with fresh tasty, nutriutious, and low cost meals tailored to each customer's individual needs and preferences.
 
-The system initally runs for the Detroit, Michigan area, but as service area and usage grows the system can easily scale out to handle multiple geographic areas **and** scale up within an area to handle increasing customer/POS density. The system includes all of the components needed to meet all of the current requirements and provides extensibility to add known and opportunistic future enhancements.
+The system initially runs for the Detroit, Michigan area, but as service area and usage grows the system can easily scale out to handle multiple geographic areas **and** scale up within an area to handle increasing customer/POS density. The system includes all of the components needed to meet all of the current requirements and provides extensibility to add known and opportunistic future enhancements.
 
 # Requirements from the customer
 ## Users
@@ -38,7 +38,7 @@ Dozens of automated fridges and representative run kiosks, thousands of customer
 
 ![High Level Architecture](doc/arc/images/high_level.svg)
 
-Broken down into 8 major components in a micro-service based architecture, the system provides a **S.O.L.I.D.** foundation for the next steps (detailed design and implementation). The following diagrams, Architectural Decision Records, Personas, and intermediate artifacts provide more detail on the benefits of the system and why various trade-offs were made when defining the achitecture.
+Broken down into 8 major components in a micro-service based architecture, the system provides a **S.O.L.I.D.** foundation for the next steps (detailed design and implementation). The following diagrams, Architectural Decision Records, Personas, and intermediate artifacts provide more detail on the benefits of the system and why various trade-offs were made when defining the architecture.
 
 ## Detailed Architecture
 
@@ -59,8 +59,8 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | Index | Description |
 |-------|-------------|
 | [ADR_001](doc/arc/adrs/adr_001.md) | Use actor/action approach to identify components |
-| [ADR_002](doc/arc/adrs/adr_002.md) | No seperate delivery component is needed in the system |
-| [ADR_003](doc/arc/adrs/adr_003.md) | Stock monitoring and inventory update machansim |
+| [ADR_002](doc/arc/adrs/adr_002.md) | No separate delivery component is needed in the system |
+| [ADR_003](doc/arc/adrs/adr_003.md) | Stock monitoring and inventory update mechanism |
 | [ADR_004](doc/arc/adrs/adr_004.md) | Use a centralized notification for external communication |
 | [ADR_005](doc/arc/adrs/adr_005.md) | Component level authorization rules for access control |
 | [ADR_006](doc/arc/adrs/adr_006.md) | Sharding/routing as per location |
@@ -96,4 +96,4 @@ Broken down into 8 major components in a micro-service based architecture, the s
 
 * [Actors/Actions for identifying subdomains](doc/artifacts/actor_actions.md)
 * [Component architecture characteristic](doc/artifacts/arch_characteristic.md)
-* [C4: FarmacyFood System context map](doc/arc/images/context_map.svg)
+* [C4(Context map): FarmacyFood System](doc/arc/images/context_map.svg)
