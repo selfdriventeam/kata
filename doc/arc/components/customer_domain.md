@@ -10,7 +10,7 @@ The **Anonymizer/Aggregator** is responsible for ensuring that any data returned
 
 The **Surveyor** is reponsible for managing any customer surveys, handling scheduling, respondent selection, and compliation of results.
 
-The **Customer Database** maintains the source of truth for the majority of data Farmacy Food maintains on it's customers. This includes, but is not limited to, name, address, contact info, financial info, personal preferences, and subscription data.
+The **Customer Database** maintains the source of truth for the majority of data Farmacy Food maintains on its customers. This includes, but is not limited to, name, address, contact info, financial info, personal preferences, and subscription data.
 
 The (optional) **HIPAA Database** will be be used in the future to maintain the source of truth for any secure personal medical information used by the [Recomendation Engine](/doc/arc/components/recommendation_engine.md)
 
