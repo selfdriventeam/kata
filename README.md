@@ -71,12 +71,12 @@ Broken down into 8 major components in a micro-service based architecture, the s
 | [ADR_011](doc/arc/adrs/adr_011.md) | Using micro-services vs event driven |
 | [ADR_012](doc/arc/adrs/adr_012.md) | Use mobile friendly web app |
 | [ADR_013](doc/arc/adrs/adr_013.md) | Use REST between Customer, Order and Pricing components|
-| [ADR_014](doc/arc/adrs/adr_014.md) | Customer subdomain design decisions|
-| [ADR_015](doc/arc/adrs/adr_015.md) | Order subdomain design decisions|
-| [ADR_016](doc/arc/adrs/adr_016.md) | Billing & Pricing subdomain design decisions|
+| [ADR_014](doc/arc/adrs/adr_014.md) | Customer domain design decisions|
+| [ADR_015](doc/arc/adrs/adr_015.md) | Order domain design decisions|
+| [ADR_016](doc/arc/adrs/adr_016.md) | Billing & Pricing domain design decisions|
 | [ADR_017](doc/arc/adrs/adr_017.md) | Use queue to update the inventory and external notification|
-| [ADR_018](doc/arc/adrs/adr_018.md) | Notification subdomain design decisions|
-| [ADR_019](doc/arc/adrs/adr_019.md) | Inventory subdomain design decisions|
+| [ADR_018](doc/arc/adrs/adr_018.md) | Notification domain design decisions|
+| [ADR_019](doc/arc/adrs/adr_019.md) | Inventory domain design decisions|
 | [ADR_020](doc/arc/adrs/adr_020.md) | Hybrid approach for recommendation component|
 
 
@@ -94,6 +94,6 @@ Broken down into 8 major components in a micro-service based architecture, the s
 
 ## Intermediate Artifacts
 
-* [Actors/Actions analysis for identifying subdomains](doc/artifacts/actor_actions.md)
+* [Actors/Actions analysis for identifying domains](doc/artifacts/actor_actions.md)
 * [Component architecture characteristic](doc/artifacts/arch_characteristic.md)
 * [C4(Context map): FarmacyFood System](doc/arc/images/context_map.svg)
