@@ -1,4 +1,4 @@
-# [artifacts_actor_actions](../../README.md)  Use Actor/Actions approach for identifying subdomains
+# [artifacts_actor_actions](../../README.md)  Use Actor/Actions approach for identifying domains
 
 
 | Actor            | Action                                                |
