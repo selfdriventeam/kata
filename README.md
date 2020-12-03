@@ -2,6 +2,10 @@
 
 selfdriventeam's architecture proposal for Farmacy Food
 
+[Video Presentation](https://github.com/selfdriventeam/kata/blob/main/doc/semifinals/SubmissionVideo.mp4)
+
+[Slides](https://github.com/selfdriventeam/kata/blob/main/doc/semifinals/SubmissionSlides.pdf)
+
 # The Customer
 ## Farmacy Food
 **Let Food Be Thy Medicine.**
